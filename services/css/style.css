@@ -1,0 +1,117 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+    background-image: url(../img/background.jpg);  
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Comfortaa', cursive;
+}
+.header{ /*ШАПКА САЙТУ*/
+	height: 60px;
+	width: 80%;
+	background: #8cc685;
+	border-radius: 15px;
+	margin: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav{
+	list-style: none;
+	display: flex;
+    justify-content: space-around;
+    width: 550px;
+}
+.wrapper{
+	width: 380px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header-right{
+    background: #202020;
+    width: 700px;
+    height: 60px; 
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.title{
+	font-size: 55px;
+	font-weight: 700;
+}
+.text-link{
+    font-size: 25px;
+	color: #FFFFFF;
+	font-weight: 700;
+	transition: 0.5s;
+}
+.link{
+    text-decoration:none;
+}
+.link-2{
+    text-decoration:none;
+} /*ЗАКІНЧЕННЯ ШАПКИ САЙТУ*/
+.title-2{ /*СЕКЦІЯ*/
+	font-size: 50px;
+	color: #FFFFFF;
+}
+.box{
+	width: 700px;
+	height: 130px;
+	background: #202020;
+	border-radius: 20px;
+    color: #d7d7d7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.5s;
+}
+.section{
+	width: 100%;
+	height: 500px;
+	display: flex;
+	justify-content: space-around;
+}
+.wrap{
+	width: 85%;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.one{
+	display: flex;
+	flex-direction: row-reverse;
+	text-align: right;
+}
+.item{
+	list-style: none;
+}
+.text-link:hover{
+	color: #8cc685;  
+    font-size: 28px;
+}
+.icon-2{
+	width: 60px;
+	height: 60px;
+	transition: 1s;
+}
+.icon-2:hover{
+    width: 65px;
+    height: 65px;
+    opacity: 80%;
+    rotate: 360deg;
+}
+.box:hover{
+    width: 725px;
+    height: 155px;
+    font-size: 18px;
+} /*ЗАКІНЧЕННЯ СЕКЦІЇ*/

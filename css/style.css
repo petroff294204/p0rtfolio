@@ -1,0 +1,140 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+    background-image: url(../img/background.jpg); 
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} 
+.header{ /*ШАПКА САЙТУ*/
+	height: 60px;
+	width: 80%;
+	background: #8cc685;
+	border-radius: 15px;
+	margin: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav{
+	list-style: none;
+	display: flex;
+    justify-content: space-around;
+    width: 550px;
+}
+.wrapper{
+	width: 380px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header-right{
+    background: #202020;
+    width: 700px;
+    height: 60px; 
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.title{
+	font-size: 55px;
+	font-family: 'Comfortaa', cursive;
+	font-weight: 700;
+}
+.text-link{
+    font-size: 25px;
+	font-family: 'Comfortaa', cursive;
+	color: #FFFFFF;
+	font-weight: 700;
+	transition: 0.5s;
+}
+.link{
+    text-decoration:none;
+}
+.link-2{
+    text-decoration:none;
+} /*ЗАКІНЧЕННЯ ШАПКИ САЙТУ*/
+.subtitle{ /*СЕКЦІЯ*/
+	font-size: 80px;
+	font-family: 'Comfortaa', cursive;
+	color: #FFFFFF;
+}
+.subtitle-2{
+	font-size: 65px;
+	font-family: 'Comfortaa', cursive;
+	color: #FFFFFF;
+}
+.button{
+	width: 500px;
+	height: 80px;
+	background: #8bb377;
+	border-radius: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+	font-family: 'Comfortaa', cursive;
+	color: #434a3f;
+	transition: 0.5s;
+}
+.button:hover{
+	background: #3e5439;
+	color: #8bb377;  
+    border: 10px solid #89a882;
+}
+.text-link:hover{
+	color: #8cc685;  
+    font-size: 28px;
+}
+.section{
+	width: 90%;
+	height: 400px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 70px;
+	align-items: center;
+}
+.mini-wrap{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	height: 400px;
+}
+.wrap-2{
+    width: 200px;
+    height: 350px;
+    background: #202020;
+    border-radius: 40px;
+    display: flex;
+	flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    }
+.block{
+	width: 180px;
+	height: 80px;
+	background: #404040;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color: #a1a1a1;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+}
+.text-2{
+    color: #404040;
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+}
+.big-block{
+	height: 260px; 
+	display: flex;
+	flex-direction: column;
+    justify-content: space-between;
+} /*ЗАКІНЧЕННЯ СЕКЦІЇ*/
